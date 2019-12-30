@@ -32,15 +32,15 @@
 <div class="modal fade" id="commentModal" tabindex="-1" role="dialog" aria-labelledby="commentModal" aria-hidden="true">
     <div role="document">
         <div class="modalContent">
-            <div class="modalHeader" style="border-bottom: none;">
+            <div class="modalHeader">
                 <h3 id="commentHeader"></h3>
             </div>
             <div class="modalBody">
-                <table class="table w-100">
+                <table class="table">
                     <thead class="commentBorder">
-                        <th scope="col" class="nameComment" style="width:15%">Name</th>
-                        <th scope="col" class="titleComment" style="width:70%">Comment</th>
-                        <th scope="col" class="deleteComment" style="width:15%">Delete?</th>
+                        <th class="nameComment">Name</th>
+                        <th class="titleComment">Comment</th>
+                        <th class="deleteComment">Delete?</th>
                     </thead>
                     <tbody id="commentsModalBody">
                     </tbody>
@@ -55,9 +55,9 @@
                     <div class="form-group">
                         <label class="titleComment" for="commentBody">Comment:</label>
                         <input type="text" class="form-control " id="bodyField" aria-describedby="commentBody"
-                            placeholder="Enter your comment here!">
+                            placeholder="I Love CSS...">
                     </div>
-                    <button type="submit" class="btn btn-primary float-right commentSubmit">Submit</button>
+                    <button type="submit" class="commentSubmit">Submit</button>
                 </form>
             </div>
         </div>

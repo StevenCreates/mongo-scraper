@@ -200,6 +200,8 @@ a:hover {
   font-size: 21px;
   border: solid #a28be6 3px;
   border-radius: 8px;
+  width: 25%;
+  padding: 1%;
 }
 
 .titleComment {
@@ -208,6 +210,8 @@ a:hover {
   font-size: 21px;
   border: solid #e68b8b 3px;
   border-radius: 8px;
+  width: 50%;
+  padding: 1%;
 }
 
 .deleteComment {
@@ -216,6 +220,7 @@ a:hover {
   font-size: 21px;
   border: solid #e6bc8b 3px;
   border-radius: 8px;
+  width: 20%;
 }
 
 .commentName {
@@ -233,6 +238,7 @@ a:hover {
 .commentBorder {
   border-bottom: solid 3px #8be6cf !important;
   margin-bottom: 6px !important;
+  width: 100%;
 }
 
 .form-group {
@@ -271,5 +277,10 @@ a:hover {
   border: #8be6cf solid 4px;
   color: #8be6cf;
   font-size: 18px;
-  background: transparent;
+  background: transparent;ƒ
+}
+
+
+.table {
+  width: 100%;;
 }

@@ -1,7 +1,7 @@
 // When you click on the comment button
 $(document).on("click", ".articleComments", function() {
   // Capture our article ID
-  var articleID = $(this).attr("data-id");
+  let articleID = $(this).attr("data-id");
   console.log(articleID);
   // Apply ID to our comment submit button
   $("button.commentSubmit").attr("data-id", articleID);
@@ -32,7 +32,7 @@ $(document).on("click", ".articleComments", function() {
 // When you click the delete button
 $(document).on("click", ".deleteButton", function() {
   // Get the unique comment ID
-  var commentID = $(this).data("commentid");
+  let commentID = $(this).data("commentid");
 
   $.ajax({
     method: "DELETE",
@@ -48,7 +48,7 @@ $(document).on("click", ".deleteButton", function() {
 // When you click to submit a comment
 $(document).on("click", ".commentSubmit", function() {
   // Capture our article ID
-  var articleID = $(this).attr("data-id");
+  let articleID = $(this).attr("data-id");
 
   $.ajax({
     method: "POST",
