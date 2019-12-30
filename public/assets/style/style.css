@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background: #3c3b3f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #605c3c,
+    #3c3b3f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #605c3c,
+    #3c3b3f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.updateButton {
+  background: transparent;
+  border: solid #e68b8b 4px;
+  border-radius: 9px;
+  color: #e68b8b;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  padding: 2px 4px 2px 4px;
+  float: right;
+}
+
+.updateButton:hover {
+  background: #e68b8b;
+  color: black;
+}
+
+.buttonLink {
+  background: transparent;
+  border: solid #a28be6 4px;
+  border-radius: 9px;
+  color: #a28be6 !important;
+  display: inline-block;
+  padding: 2px 4px 2px 4px;
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+
+.commentArticle {
+  color: #a28be6;
+  text-align: center;
+}
+
+.buttonLink:hover {
+  background: #a28be6;
+  color: black !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.headerContent {
+  background: transparent;
+  margin-bottom: 2%;
+  border: solid #a28be6 9px;
+  border-radius: 9px;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  color: #a28be6;
+}
+
+.about {
+  color: #a28be6;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: transparent;
+  background-clip: border-box;
+  border: 6px solid #8be6cf;
+  border-radius: 9px;
+  padding: 1rem;
+}
+
+.thetable {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  border-bottom: solid 3px #8be6cf;
+  margin-bottom: 6px !important;
+}
+
+.theArticle {
+  margin-bottom: 1%;
+  border-bottom: 3px solid #e68b93;
+}
+
+.articleTitle {
+  color: #8ba0e6;
+  font-size: 18px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.articleSummary {
+  color: #e6bc8b;
+}
+
+.articlecSummary {
+  color: #e6bc8b;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 999px;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: white;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.35s ease-in;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.show {
+  display: block;
+  background: white;
+  visibility: visible !important;
+  opacity: 100 !important;
+}
+
+.commentText {
+  text-align: center;
+}
+
+#commentModal {
+  background: #3c3b3f;
+  border: solid 4px #8be6cf;
+  border-radius: 9px;
+}
+
+#commentHeader {
+  text-align: center;
+  color: #e68b93;
+}
+
+.nameComment {
+  text-align: center;
+  color: #a28be6;
+  font-size: 21px;
+  border: solid #a28be6 3px;
+  border-radius: 8px;
+}
+
+.titleComment {
+  text-align: center;
+  color: #e68b8b;
+  font-size: 21px;
+  border: solid #e68b8b 3px;
+  border-radius: 8px;
+}
+
+.deleteComment {
+  text-align: center;
+  color: #e6bc8b;
+  font-size: 21px;
+  border: solid #e6bc8b 3px;
+  border-radius: 8px;
+}
+
+.commentName {
+  text-align: center;
+  color: #a28be6;
+  font-size: 21px;
+}
+
+.commentBody {
+  text-align: center;
+  color: #e68b8b;
+  font-size: 21px;
+}
+
+.commentBorder {
+  border-bottom: solid 3px #8be6cf !important;
+  margin-bottom: 6px !important;
+}
+
+.form-group {
+  margin: 2%;
+}
+
+.commentSubmit {
+  background: transparent;
+  border: solid #e68b8b 4px;
+  border-radius: 9px;
+  color: #e68b8b;
+  margin: 2%;
+  padding: 2px 4px 2px 4px;
+}
+
+.commentSubmit:hover {
+  background: #e68b8b;
+  color: black;
+}
