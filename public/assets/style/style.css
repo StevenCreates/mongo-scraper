@@ -252,3 +252,24 @@ a:hover {
   background: #e68b8b;
   color: black;
 }
+
+.form-control {
+  border-radius: 8px;
+  border: solid 4px #8ba0e6;
+  background: transparent;
+  color: #8ba0e6;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 2% 1% 2% 1%;
+  font-size: 18px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.deleteButton {
+  border: #8be6cf solid 4px;
+  color: #8be6cf;
+  font-size: 18px;
+  background: transparent;
+}
